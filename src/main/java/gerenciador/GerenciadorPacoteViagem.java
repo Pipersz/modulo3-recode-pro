@@ -85,10 +85,10 @@ public class GerenciadorPacoteViagem {
 		System.out.print("Data de ida (dd/mm/aaaa): ");
 		LocalDate dataIda = LocalDate.parse(entrada.nextLine(), formatter);
 		
-		System.out.print("Data de volta: ");
+		System.out.print("Data de volta (dd/mm/aaaa): ");
 		LocalDate dataVolta = LocalDate.parse(entrada.nextLine(), formatter);
 		
-		System.out.print("Preço (dd/mm/aaaa): ");
+		System.out.print("Preço: ");
 		float preco = entrada.nextFloat();
 		entrada.nextLine();
 		
@@ -169,10 +169,10 @@ public class GerenciadorPacoteViagem {
 			}
 		}
 		
-		System.out.print("Data de ida: ");
+		System.out.print("Data de ida (dd/mm/aaaa): ");
 		LocalDate dataIda = LocalDate.parse(entrada.nextLine(), formatter);
 		
-		System.out.print("Data de volta: ");
+		System.out.print("Data de volta (dd/mm/aaaa): ");
 		LocalDate dataVolta = LocalDate.parse(entrada.nextLine(), formatter);
 		
 		System.out.print("Preço: ");
